@@ -168,7 +168,7 @@ footer a {
   }
 
   .content {
-    height: 100vh;
+    min-height: 100rem;
     background: var(--bg-header);
     padding: 0 2rem;
   }
@@ -251,7 +251,7 @@ footer a {
   main {
     grid-template-columns: 15rem 15rem 15rem;
   }
-} 
+}
 
 @media (min-width: 1024px) {
   .content {
